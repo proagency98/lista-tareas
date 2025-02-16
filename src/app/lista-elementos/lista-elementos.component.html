@@ -3,7 +3,8 @@
         <h2>Lista de Elementos</h2>
         <div class="btnInput">
             <input type="text" [(ngModel)]="nuevoElemento" placeholder="Ingrese un elemento" />
-            <button (click)="agregarElemento()">Agregra</button>
+            <button class="agregarElemento" (click)="agregarElemento()">Agregra</button>
+            <button class="eliminarElemento" (click)="eliminarElemento()">Eliminar</button>
         </div>
     </div>
     <div class="containerListado">

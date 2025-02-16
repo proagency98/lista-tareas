@@ -19,15 +19,20 @@
             flex-direction: row;
             gap: 4px;
             button{
-                width: 50%;
+                width: 20%;
                 background: #009;
                 color: #FFF;
                 border: 1px solid #FFF;
                 border-radius: 5px;
-                padding: 4px
+                padding: 4px;
+                cursor: pointer
+            }
+            .eliminarElemento{
+                background: red;
+                color: #FFF
             }
             input{
-                width: 50%;
+                width: 100%;
                 border-radius: 5px;
                 border: none;
                 padding: 4px

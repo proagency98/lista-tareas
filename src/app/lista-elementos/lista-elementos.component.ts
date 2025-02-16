@@ -18,8 +18,11 @@ export class ListaElementosComponent {
       const nuevoId = this.elementos.length + 1;
 
       this.elementos.push({id: nuevoId, nombre: this.nuevoElemento}); //agregamos el elemento
-      
+
       this.nuevoElemento = ''; // limpiamos el input despues de agregar el elemento
     }
+  }
+  eliminarElemento() {
+    this.elementos.pop()
   }
 }
